@@ -1,0 +1,7 @@
+info:
+  name: "[주문] 상품 정보"
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit

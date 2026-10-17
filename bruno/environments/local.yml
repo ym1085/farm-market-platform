@@ -1,0 +1,14 @@
+name: local
+variables:
+  - name: baseUrl
+    value: http://localhost:8080
+  - name: email
+    secret: true
+  - name: password
+    secret: true
+  - name: memberName
+    secret: true
+  - name: phoneNumber
+    secret: true
+  - name: refreshToken
+    secret: true
