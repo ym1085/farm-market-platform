@@ -1,0 +1,26 @@
+info:
+  name: 회원가입
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/v1/members"
+  body:
+    type: json
+    data: |2
+       {
+          "email": "{{email}}",
+          "password": "{{password}}",
+          "name": "{{memberName}}",
+          "phoneNumber": "{{phoneNumber}}",
+          "isAgreeMarketing": "Y"
+        }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

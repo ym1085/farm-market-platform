@@ -1,0 +1,7 @@
+info:
+  name: "[회원] 회원 정보"
+  type: folder
+  seq: 2
+
+request:
+  auth: inherit
